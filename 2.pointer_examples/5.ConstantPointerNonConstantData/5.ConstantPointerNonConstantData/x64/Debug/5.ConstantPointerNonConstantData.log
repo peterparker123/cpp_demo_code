@@ -1,0 +1,2 @@
+﻿  5.ConstantPointerNonConstantData.cpp
+C:\programming\C++\code\2.pointer_examples\5.ConstantPointerNonConstantData\5.ConstantPointerNonConstantData\5.ConstantPointerNonConstantData.cpp(14,2): error C3892: 'ptr': you cannot assign to a variable that is const
