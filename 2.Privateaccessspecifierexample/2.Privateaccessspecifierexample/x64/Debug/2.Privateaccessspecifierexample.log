@@ -1,7 +1,0 @@
-﻿  2.Privateaccessspecifierexample.cpp
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(58,49): error C2248: 'Person::age': cannot access private member declared in class 'Person'
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(10,6): message : see declaration of 'Person::age'
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(5,7): message : see declaration of 'Person'
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(61,52): error C2248: 'Person::age': cannot access private member declared in class 'Person'
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(10,6): message : see declaration of 'Person::age'
-C:\programming\C++\code\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample\2.Privateaccessspecifierexample.cpp(5,7): message : see declaration of 'Person'
