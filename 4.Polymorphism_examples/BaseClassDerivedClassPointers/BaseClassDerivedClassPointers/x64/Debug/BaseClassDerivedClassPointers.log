@@ -1,0 +1,9 @@
+﻿  DerivedClassMemberFunctionCallBaseClassPointer.cpp
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\DerivedClassMemberFunctionCallBaseClassPointer.cpp(30,45): error C2039: 'getBaseSalary': is not a member of 'CommissionEmployee'
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\CommissionEmployee.h(7,7): message : see declaration of 'CommissionEmployee'
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\DerivedClassMemberFunctionCallBaseClassPointer.cpp(31,25): error C2039: 'setBaseSalary': is not a member of 'CommissionEmployee'
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\CommissionEmployee.h(7,7): message : see declaration of 'CommissionEmployee'
+  DerivedclasspointerBaseClassObject.cpp
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\DerivedclasspointerBaseClassObject.cpp(13,34): error C2440: '=': cannot convert from 'CommissionEmployee *' to 'BasePlusCommissionEmployee *'
+C:\programming\C++\code\4.Polymorphism_examples\BaseClassDerivedClassPointers\BaseClassDerivedClassPointers\DerivedclasspointerBaseClassObject.cpp(13,34): message : Cast from base to derived requires dynamic_cast or static_cast
+  Generating Code...
