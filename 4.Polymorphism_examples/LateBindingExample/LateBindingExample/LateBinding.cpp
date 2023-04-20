@@ -24,7 +24,9 @@ public:
 };
 int main()
 {
-	Animals* a;
-	Cats c; a = &c; a->sound();
+//	Animals* a;
+//	Cats c; a = &c; a->sound();
+	Animals* a = new Animals(); // Base class pointer
+	a->sound();
 	return 0;
 }
