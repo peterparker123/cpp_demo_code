@@ -2,7 +2,6 @@
 #include "CreateAndDestroy.h"
 using namespace std;
 
-void create(void); 
 
 CreateandDestroy first(1, "(global before main )");
 

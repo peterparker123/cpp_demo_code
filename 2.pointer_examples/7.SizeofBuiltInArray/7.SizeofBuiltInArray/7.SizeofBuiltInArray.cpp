@@ -9,7 +9,7 @@ size_t getSize(double*);
 
 int main()
 {
-	double numbers[20];
+	double numbers[20]; //Each double is of 8 bytes, 20 * 8 = 160
 	cout << "The number of bytes in array is: " << sizeof(numbers)<<endl;
 	cout << "The number of bytes returned by the getSize is " << getSize(numbers) << endl;
 

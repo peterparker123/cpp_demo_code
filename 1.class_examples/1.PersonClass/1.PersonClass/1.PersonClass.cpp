@@ -36,6 +36,7 @@ int main(void)
 
 	// define bob
 	bob.setName("Bob");
+	bob.setName("Robert");
 	bob.setAge(27);
 	cout << "Bob's age before modification:" << bob.age << endl;
 	bob.age = 25;

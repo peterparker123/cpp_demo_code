@@ -16,7 +16,7 @@ public:
 
 	double earnings() const;
 	void print() const;
-
+	
 private:
 	double baseSalary;
 };

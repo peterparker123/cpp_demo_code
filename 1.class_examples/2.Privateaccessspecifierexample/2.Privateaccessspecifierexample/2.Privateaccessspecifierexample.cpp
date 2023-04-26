@@ -11,6 +11,7 @@ private:
 
 	// public functions
 public:
+	
 
 	void setName(string);
 	void setAge(int);
@@ -55,9 +56,13 @@ int main(void)
 	// define bob
 	bob.setName("Bob");
 	bob.setAge(27);
+
+	
+
+	bob.setName("Robert");
 	
 	cout << bob.getName() << " is " << bob.getAge() << " years old." << endl;
 
-	// Create another person object named John
+	// Create another person object named John	
 	
 }

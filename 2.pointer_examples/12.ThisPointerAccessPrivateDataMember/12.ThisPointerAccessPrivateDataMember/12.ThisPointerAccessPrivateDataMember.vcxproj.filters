@@ -18,5 +18,8 @@
     <ClCompile Include="12.ThisPointerAccessPrivateDataMember.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AccessPrivateDataMember.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@ int main()
 	short S; //Variable of type short int
 	int i; //variable of type int
 	long l; // Variable of type long
-	long ll;  // variable of type long long
+	long long ll;  // variable of type long long
 	float f; // Variable of type float
 	double d; // Variable of type double 
 	long double ld; // Variable of type long double

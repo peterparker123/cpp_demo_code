@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// in this code, no default values are set
+
 // create a new class called Person
 class Person
 {
@@ -51,6 +53,7 @@ int main(void)
 {
 	// create a new person named bob
 	Person bob;
+	
 
 	cout << bob.getName() << " is " << bob.getAge() << " years old." << endl;
 

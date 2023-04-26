@@ -74,6 +74,7 @@ int main(void)
 	Person person2;
 
 	// We will set age for person2, but name will be smith
+	person2.setName("John Constantine");
 	person2.setAge(40);
 	cout << person2.getName() << " is " << person2.getAge() << " year old. " << endl;
 

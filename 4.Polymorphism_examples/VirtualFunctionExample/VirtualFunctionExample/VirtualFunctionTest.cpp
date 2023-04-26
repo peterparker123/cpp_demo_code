@@ -14,7 +14,7 @@ int main()
 	CommissionEmployee* commissionEmployeePtr = nullptr;
 
 	// Create derived class object
-	BasePlusCommissionEmployee basePlusCommissionEmployee("Bob", "Lewis", "444-44-4444", 5000, 0.4, 300);
+	BasePlusCommissionEmployee basePlusCommissionEmployee("Carlos", "Moya", "444-44-4444", 5000, 0.4, 300);
 
 	// Create derived class pointer
 	BasePlusCommissionEmployee* basePlusCommissionEmployeePtr = nullptr;
@@ -32,30 +32,33 @@ int main()
 
 	// output objects using dynamic binding
 	cout << "\n\n\nInvoking print function on base-class and "
-		 << "derived-class \nobjects with dynamic binding";
+		<< "derived-class \nobjects with dynamic binding";
 
 	// aim base class pointer at base class object and print
 	commissionEmployeePtr = &commissionEmployee;
 	commissionEmployeePtr->print();
 
+
 	// aim derived class pointer at derived class object and print
 	basePlusCommissionEmployeePtr = &basePlusCommissionEmployee;
 	cout << "\n\nCalling virtual function print with derived-class "
-		 << "pointer\nto derived-class object invokes derived-class "
-		 << "print function:\n\n";
+		<< "pointer\nto derived-class object invokes derived-class "
+		<< "print function:\n\n";
 
 	basePlusCommissionEmployeePtr->print();
 
-	// aim base class pointer at derived class object and print
+
+	// aim base class pointer at derived class object and call print
 	commissionEmployeePtr = &basePlusCommissionEmployee;
 
 	cout << "\n\nCalling virtual function print with base-class pointer"
-		 << "\nto derived-class object invokes derived-class "
-		 << "print function:\n\n";
+		<< "\nto derived-class object invokes derived-class "
+		<< "print function:\n\n";
 
 	// polymorphism; invokes BasePlusCommissionEmployee's print;
 	// base-class pointer to derived-class object
 
 	commissionEmployeePtr->print();
+	
 	cout << endl;
 }

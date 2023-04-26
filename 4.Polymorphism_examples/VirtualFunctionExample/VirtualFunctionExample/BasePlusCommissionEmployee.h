@@ -12,8 +12,8 @@ public:
 	void setBaseSalary(double); //set base salary
 	double getBaseSalary() const; //get base salary
 
-	virtual double earnings() const override; // calculate earnings
-	virtual void print() const override; //print
+	double earnings() const override; // calculate earnings
+	void print() const override; //print
 
 private:
 	double baseSalary; //base salary 

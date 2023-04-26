@@ -12,7 +12,7 @@ private:
 	string LastName;
 
 public:
-	Person(string FirstName, string MiddleName, string LastName);
+	// Person(string FirstName, string MiddleName, string LastName);
 	Person& setfullname(string, string, string);
 	Person& setfirstname(string);
 	Person& setmiddlename(string);
@@ -27,10 +27,10 @@ public:
 	void printFullName();
 };
 
-Person::Person(string FirstName, string MiddleName, string LastName)
+/* Person::Person(string FirstName, string MiddleName, string LastName)
 {
 	setfullname(FirstName, MiddleName, LastName);
-}
+} */
 
 Person& Person::setfullname(string first, string mid, string last)
 {
@@ -74,7 +74,7 @@ string Person::getLastName()
 
 void Person::printFullName()
 {
-	cout << FirstName << "," MiddleName << "," << LastName << endl;
+	cout << FirstName << ","<< MiddleName << "," << LastName << endl;
 }
 int main()
 {

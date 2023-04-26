@@ -133,9 +133,12 @@
   <ItemGroup>
     <ClCompile Include="BasePlusCommissionEmployee.cpp" />
     <ClCompile Include="CommissionEmployee.cpp" />
-    <ClCompile Include="DerivedClassMemberFunctionCallBaseClassPointer.cpp" />
-    <ClCompile Include="DerivedclasspointerBaseClassObject.cpp" />
-    <ClCompile Include="TestProgram.cpp" />
+    <ClCompile Include="DerivedclasspointerBaseClassObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TestProgram.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

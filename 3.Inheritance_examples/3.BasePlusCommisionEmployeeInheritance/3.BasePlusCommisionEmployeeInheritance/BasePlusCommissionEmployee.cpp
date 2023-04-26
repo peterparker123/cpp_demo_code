@@ -1,12 +1,23 @@
 #include <iostream>
 #include <stdexcept>
 #include "BasePlusCommissionEmployee.h"
+#include "CommissionEmployee.h"
+
 
 using namespace std;
+
+
+// The data members for this constructors are being called from the Base Class
+// Except for the Salary which is being defined inside the derived class
+// BasePlusCommissionEmployee is a child of CommissionEmployee
+// 
+
+// Initialization of the constructor
 
 BasePlusCommissionEmployee::BasePlusCommissionEmployee(const string& first, const string& last, const string& ssn,
 	double sales, double rate, double salary) :CommissionEmployee(first, last, ssn, sales, rate)
 {
+	
 	setBaseSalary(salary);
 }
 

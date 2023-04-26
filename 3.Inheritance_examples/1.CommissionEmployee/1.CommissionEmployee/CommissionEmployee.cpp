@@ -16,6 +16,8 @@ CommissionEmployee::CommissionEmployee(
 	setCommissionRate(rate);
 }
 
+// We are passing the values by references
+
 void CommissionEmployee::setFirstName(const string& first)
 {
 	firstName = first;

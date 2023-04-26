@@ -1,2 +1,2 @@
 ﻿  4.NonConstantPointerConstantData.cpp
-C:\programming\C++\code\2.pointer_examples\4.NonConstantPointerConstantData\4.NonConstantPointerConstantData\4.NonConstantPointerConstantData.cpp(17,3): error C3892: 'data': you cannot assign to a variable that is const
+  4.NonConstantPointerConstantData.vcxproj -> C:\programming\C++\code\2.pointer_examples\4.NonConstantPointerConstantData\x64\Debug\4.NonConstantPointerConstantData.exe

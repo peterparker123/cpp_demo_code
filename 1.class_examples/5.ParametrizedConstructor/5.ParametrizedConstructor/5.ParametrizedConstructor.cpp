@@ -11,6 +11,7 @@ private:
 
 	// public functions
 public:
+	
 
 	// Constructor that takes one or more argument are known as parametrized constructor
 	// In this case, the arguments passed inside the object would be the values for the data members 
@@ -33,7 +34,7 @@ public:
 // Call the constructor method
 // Here, the constructor will have the values, which will be created for the object
 Person::Person(int userAge, string userName)
-{
+{ 
 	// Default values for the person object, if not values are initialized
 	age = userAge;
 
@@ -58,7 +59,7 @@ int main(void)
 	// Because we are using parametrized constructor, we need to pass the argument
 	// as we have not defined a default constructor - Constructor which takes no argument
 	// Compiler will not issue a default constructor in this scenario, as it's not explicitly defined.
-	Person person1(25,"Bob");
+	Person person1(40,"Bob");
 
 	cout << " ' " << person1.getName() << " ' " << " is " << person1.getAge() << " years old." << endl;
 

@@ -3,14 +3,16 @@
 #include "CommissionEmployee.h"
 using namespace std;
 
-// constructor 
+// constructor for the base class
 
 CommissionEmployee::CommissionEmployee(const string& first, const string& last, const string& ssn,
-	double sales, double rate) :firstName(first), lastName(last), socialSecurityNumber(ssn)
+	double sales, double rate):firstName(first),lastName(last),socialSecurityNumber(ssn)
 {
 	setGrossSales(sales);
 	setCommissionRate(rate);
 }
+
+
 
 // set first name
 void CommissionEmployee::setFirstName(const string& first)

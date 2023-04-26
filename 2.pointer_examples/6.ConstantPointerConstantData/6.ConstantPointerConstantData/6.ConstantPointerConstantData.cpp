@@ -7,13 +7,24 @@ using namespace std;
 
 int main()
 {
-	int x = 5,y;
-	const int* const Ptr = &x;
+	// int x = 5,y;
+	// const int*  const Ptr = &x;
+		
+	
+	// *Ptr = x;	
+	// Ptr = &y;
 
-	cout << *Ptr << endl;
+	int a = 10,b; // of type integer
+	int* aPtr = &a; // declaring variable
+	cout << aPtr << endl;
+	cout << *aPtr << endl;
 
-	// Try to modify the pointer
+	b = 20;
+	aPtr = &b;
+	cout << *aPtr << endl;
+	cout << aPtr << endl;
 
-	*Ptr = 7;
-	Ptr = &y;
+	
+	// &y stores the memory address of y
+	
 }

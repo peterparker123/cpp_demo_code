@@ -33,6 +33,9 @@ public:
 
 
 private:
+
+	// Without inheritance, we are redefining all the data members and the functions
+	// this is doing the work, which already has been done, again
 	string firstName;
 	string lastName;
 	string socialSecurityNumber;

@@ -46,6 +46,8 @@ double BasePlusCommissionEmployee::earnings() const
 	return getBaseSalary() + CommissionEmployee::earnings();
 }
 
+
+
 void BasePlusCommissionEmployee::print() const
 {
 	cout << "base-salaired";
@@ -53,4 +55,5 @@ void BasePlusCommissionEmployee::print() const
 	CommissionEmployee::print();
 
 	cout << "\nbase salary: " << getBaseSalary();
+
 }

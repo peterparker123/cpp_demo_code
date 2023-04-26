@@ -1,8 +1,9 @@
 #include <iostream>
 #include <iomanip>
-using namespace std;
 #include "CommissionEmployee.h"
 #include "BasePlusCommissionEmployee.h"
+
+using namespace std;
 
 // Program to demonstrate that base class functionality is available to derived class
 // For this, we would be creating two pointers, each of them aiming at base class and derived class
@@ -33,12 +34,12 @@ int main()
 	cout << "\n\n";
 	basePlusCommissionEmployee.print(); //invokes derived class print
 
-
 	// aim base class pointer at base class object and print
 	commissionEmployeePtr = &commissionEmployee;
 	cout << "\n\n\nCalling print with base-class pointer to "
-		 << "\nbase-class object invokes base-class print function:\n\n";
+		<< "\nbase-class object invokes base-class print function:\n\n";
 	commissionEmployeePtr->print();
+
 
 	// aim derived class pointer at derived class object and print
 	basePlusCommissionEmployeePtr = &basePlusCommissionEmployee;
@@ -49,12 +50,15 @@ int main()
 
 
 	// aim base class pointer at derived class object and print
+	// This is legal, beacause a derived class object is also a base class object
+
 	commissionEmployeePtr = &basePlusCommissionEmployee;
 	cout << "\n\n\nCalling print with base-class pointer to "
-		 << "derived-class object\ninvokes base-class print "
+		<< "derived-class object\ninvokes base-class print "
 		<< "function on that derived-class object:\n\n";
 
 	commissionEmployeePtr->print();
+
 	cout << endl;
 	return 0;
 	// end main

@@ -1,0 +1,2 @@
+﻿  13.ThisPointerCascadedFunctionCall.cpp
+C:\programming\C++\code\2.pointer_examples\13.ThisPointerCascadedFunctionCall\13.ThisPointerCascadedFunctionCall\13.ThisPointerCascadedFunctionCall.cpp(40): error C4716: 'Person::setfullname': must return a value

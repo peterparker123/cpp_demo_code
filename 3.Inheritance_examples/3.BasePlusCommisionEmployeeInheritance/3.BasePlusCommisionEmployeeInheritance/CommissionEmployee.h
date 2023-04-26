@@ -1,3 +1,6 @@
+// Base Class
+// BasePlusCommissionEmployee will derive from this class
+
 #ifndef COMMISSION_H
 #define COMMISSION_H
 
