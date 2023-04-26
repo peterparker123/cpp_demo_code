@@ -1,0 +1,2 @@
+﻿  ConstKeyWordExample.cpp
+C:\programming\C++\code\PointersExample\ConstKeywordExample\ConstKeywordExample\ConstKeyWordExample.cpp(11,2): error C3892: 'number': you cannot assign to a variable that is const

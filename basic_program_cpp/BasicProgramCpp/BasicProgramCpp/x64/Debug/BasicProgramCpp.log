@@ -1,0 +1,3 @@
+﻿  BasicProgram.cpp
+C:\programming\C++\code\basic_program_cpp\BasicProgramCpp\BasicProgramCpp\BasicProgram.cpp(24,7): warning C4101: 'b': unreferenced local variable
+  BasicProgramCpp.vcxproj -> C:\programming\C++\code\basic_program_cpp\BasicProgramCpp\x64\Debug\BasicProgramCpp.exe

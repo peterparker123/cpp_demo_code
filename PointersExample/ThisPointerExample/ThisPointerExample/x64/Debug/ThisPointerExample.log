@@ -1,0 +1,3 @@
+﻿  ThisKeywordWorking.cpp
+C:\programming\C++\code\PointersExample\ThisPointerExample\ThisPointerExample\ThisKeywordWorking.cpp(73): warning C4715: 'MyMonth::getMonth': not all control paths return a value
+  ThisPointerExample.vcxproj -> C:\programming\C++\code\PointersExample\ThisPointerExample\x64\Debug\ThisPointerExample.exe

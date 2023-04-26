@@ -1,0 +1,4 @@
+﻿  StringTemplateFunction.cpp
+C:\programming\C++\code\PointersExample\TemplatedString\TemplatedString\StringTemplateFunction.cpp(31): warning C4715: 'maxVal<int>': not all control paths return a value
+C:\programming\C++\code\PointersExample\TemplatedString\TemplatedString\StringTemplateFunction.cpp(31): warning C4715: 'maxVal<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >': not all control paths return a value
+  TemplatedString.vcxproj -> C:\programming\C++\code\PointersExample\TemplatedString\x64\Debug\TemplatedString.exe
