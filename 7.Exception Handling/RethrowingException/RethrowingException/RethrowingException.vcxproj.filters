@@ -18,15 +18,13 @@
     <ClCompile Include="RethrowingException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RethrowException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RethrowingException.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DivideByZeroException.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

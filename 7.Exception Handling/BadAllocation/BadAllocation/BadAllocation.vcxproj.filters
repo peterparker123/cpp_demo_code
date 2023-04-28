@@ -18,5 +18,11 @@
     <ClCompile Include="BadAllocation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AllocateWithoutException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BadAllocationException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

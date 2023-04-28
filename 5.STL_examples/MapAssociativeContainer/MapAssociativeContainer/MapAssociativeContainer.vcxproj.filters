@@ -18,5 +18,8 @@
     <ClCompile Include="MapContainerExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MapExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

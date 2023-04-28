@@ -16,7 +16,7 @@ int main()
 	string firstName;
 	double balance;
 
-	fstream outCredit("C:\\programming\\C++\\credit.dat", ios::in | ios::out | ios::binary);
+	fstream outCredit("C:\\programming\\C++\\credits.dat", ios::in | ios::out | ios::binary);
 
 	// exit program if fstream cannot open file
 	if (!outCredit)

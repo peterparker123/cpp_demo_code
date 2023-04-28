@@ -24,5 +24,11 @@
     <ClCompile Include="SimpleVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IteratorExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

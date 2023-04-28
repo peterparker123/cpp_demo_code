@@ -28,9 +28,13 @@ int main()
 	//  begin() returns an iterator object of the vector, which is stored inside intIterator
 	// iterators are pointers
 
-	for (auto intiterator = myVector.begin(); intiterator < myVector.end(); intiterator++)
+
+	// if we don't use the auto keyword, we will have to intialize an iterator for a vector like this
+	
+
+	for (auto it = myVector.begin(); it < myVector.end(); it++)
 	{
-		cout << *intiterator << endl;
+		cout << *it << endl;
 	}
 
 

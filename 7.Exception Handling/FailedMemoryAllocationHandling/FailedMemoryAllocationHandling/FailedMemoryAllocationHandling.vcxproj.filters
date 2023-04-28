@@ -18,5 +18,8 @@
     <ClCompile Include="FailedMemoryAllocationHandling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HandlingFailedMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

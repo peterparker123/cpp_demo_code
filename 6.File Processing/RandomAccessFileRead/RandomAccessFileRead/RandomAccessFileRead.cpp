@@ -17,13 +17,15 @@ void outputLine(ostream&, const ClientData&);   // prototype
 
 int main()
 {
-    ifstream inCredit("C:\\programming\\C++\\credit.dat",
+    ifstream inCredit("C:\\programming\\C++\\credits.dat",
         ios::in | ios::binary);
 
     // exit program if ifstream cannot open file
     if (!inCredit) {
         cerr << "File could not be opened." << endl;
         exit(EXIT_FAILURE);
+
+        
     } // end if
 
     cout << left << setw(10) << "Account" << setw(16)

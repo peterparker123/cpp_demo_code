@@ -1,0 +1,3 @@
+﻿  TemplateCalculator.cpp
+C:\programming\C++\code\TemplateCalculator\TemplateCalculator\TemplateCalculator.cpp(180): warning C4715: 'getVarType': not all control paths return a value
+  TemplateCalculator.vcxproj -> C:\programming\C++\code\TemplateCalculator\x64\Debug\TemplateCalculator.exe

@@ -1,8 +1,8 @@
-- In an inheritance, when an instance of a derived class is created, the base class constructor is invoked
-so that the base class portion can be initialized.
+- In an inheritance, when an instance of a derived class is created, the base class constructor 
+is invoked so that the base class portion can be initialized.
 
-- After all the base class constructor are initialized, then the dervied class constructors are called, so that
-derived portion can be initialized.
+- After all the base class constructor are initialized, then the dervied 
+class constructors are called, so that derived portion can be initialized.
 
 - This involves chain of calls to constructors starting with the base class going all the way down to the inheritance
 hierarchy, until we arrive at the type of the derived object that's actually being created.
@@ -13,21 +13,23 @@ hierarchy, until we arrive at the type of the derived object that's actually bei
 beginning with ~CC then ~CB then ~CA.
 
 - But consider this scenario: An instance of a derived class is created dynamically from the heap, and the address of
-the derived class object is stored in a base class pointer.
+the derived class object is stored in a base class pointer. (base class pointer can point
+to derived class object)
 
 - This operation is legal, as there is an is-a relation ship between the object of derived class and the pointer of the 
 base class, and base class pointer can point to the derived class object.
 
-- However, what would what happen if the base class pointer is used in a call to the delete operator so that the
-object can be released back to heap [DYNAMIC MEMORY ALLOCATION]?
+- However, what would what happen if the base class pointer is used in a call to the
+delete operator so that the object can be released back to heap [DYNAMIC MEMORY ALLOCATION]?
 
 -This can be a big problem if the destructor isn’t declared as virtual.
 
 - If the base class declares it's destructor as virtual, then, that means that all the derived classes will have
 a virtual destructor (and an entry in the vtbl for those classes).
 
-- The call to the destructor will be dynamically bound at runtime, so that instead of jumping directly to the base
-class constructor, the chain of destructor calls will begin with the derived class first, as it should if the base
+- The call to the destructor will be dynamically bound at runtime, so that instead of
+jumping directly to the base class constructor, the chain of destructor calls 
+will begin with the derived class first, as it should if the base
 class pointer is pointing to a derived instance of the class.
 
 

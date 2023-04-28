@@ -18,5 +18,8 @@
     <ClCompile Include="ReadSequentialData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ReadingSequentialfileData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

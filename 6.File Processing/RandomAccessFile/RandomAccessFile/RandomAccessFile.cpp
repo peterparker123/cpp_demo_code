@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	ofstream outCredit("C:\\programming\\C++\\credit.dat", ios::out | ios::binary);
+	ofstream outCredit("C:\\programming\\C++\\credits.dat", ios::out | ios::binary);
 
 	// exit program if could not open file
 	if (!outCredit)

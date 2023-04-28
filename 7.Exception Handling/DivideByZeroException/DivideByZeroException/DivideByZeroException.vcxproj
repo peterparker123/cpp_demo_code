@@ -130,7 +130,10 @@
     <ClInclude Include="DivideByZeroException.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DivideByZeroException.cpp" />
+    <ClCompile Include="DivideByZeroException.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DivideByZeroExceptionExample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,44 +1,34 @@
-// Example that throws exceptions on 
-// attempts to divide by zero.
+// Rethrowing an exception.
 #include <iostream>
-#include "DivideByZeroException.h" // DivideByZeroException class 
+#include <exception>
 using namespace std;
 
-// perform division and throw DivideByZeroException object if 
-// divide-by-zero exception occurs
-double quotient(int numerator, int denominator) {
-    // throw DivideByZeroException if trying to divide by zero
-    if (denominator == 0) {
-        throw DivideByZeroException{}; // terminate function
+// throw, catch and rethrow exception
+void throwException() {
+    // throw exception and catch it immediately
+    try {
+        cout << "  Function throwException throws an exception\n";
+        throw exception{}; // generate exception
+    }
+    catch (const exception&) { // handle exception
+        cout << "  Exception handled in function throwException"
+            << "\n  Function throwException rethrows exception";
+        throw; // rethrow exception for further processing
     }
 
-    // return division result
-    // static_cast does the implicit conversion of the data type
-    // it's a compile time cast
-    return static_cast<double>(numerator) / denominator;
+    cout << "This should not print\n";
 }
 
 int main() {
-    int number1; // user-specified numerator
-    int number2; // user-specified denominator
-
-    cout << "Enter two integers (end-of-file to end): ";
-
-    // enable user to enter two integers to divide
-    while (cin >> number1 >> number2) {
-        // try block contains code that might throw exception     
-        // and code that will not execute if an exception occurs
-        try {
-            double result{ quotient(number1, number2) };
-            cout << "The quotient is: " << result << endl;
-        }
-        catch (const DivideByZeroException& divideByZeroException) {
-            cout << "Exception occurred: "
-                << divideByZeroException.what() << endl;
-        }
-
-        cout << "\nEnter two integers (end-of-file to end): ";
+    // throw exception
+    try {
+        cout << "\nmain invokes function throwException\n";
+        throwException();
+        cout << "This should not print\n";
+    }
+    catch (const exception&) { // handle exception
+        cout << "\n\nException handled in main\n";
     }
 
-    cout << endl;
+    cout << "Program control continues after catch in main\n";
 }

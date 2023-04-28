@@ -18,5 +18,8 @@
     <ClCompile Include="StackUnwinding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StackUnwindingExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -46,7 +46,7 @@ int main()
 
 	// Create the structure for our file
 	// The combination of account,name and balance would be one record for the file
-	cout << "Enter the accound, name and balance" << endl
+	cout << "Enter the account, name and balance" << endl
 		<< "Enter end-of-file to end input.\n?";
 
 	int account; // the account number

@@ -20,9 +20,9 @@ private:
 	int month;
 };
 
-void MyMonth::setMonth(int monthname)
+void MyMonth::setMonth(int month)
 {
-	month = monthname;
+	this->month = month;
     // this would contain the memory address of the object 
     cout << this<<endl;
 }
@@ -93,6 +93,7 @@ int main()
     cout << &myMonth<<endl;
 
     myMonth.setMonth(3);
+   
     cout<<myMonth.getMonth()<<endl;
 
     myMonth.setMonth(4);
